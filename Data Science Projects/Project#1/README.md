@@ -32,6 +32,12 @@ More specifically this is a multiple regression problem, since the system will u
 *And finally, since there is no continuous flow of datacoming into the system, there is no particular need to adjust to changing data rapidly, and the data is small enough to fit in memory, so plain* **batch learning** *should be fine.*
 
 5.   How should performance be measured?
+  
+_A typical performance measure for the regression problems is the Root Mean Square Error (RMSE). It gives an idea of how much error the system typically makes in its predictions, with a_ _**higher weight for large errors.**_
+  
+_Even though RMSE is generally the preferred performance measure for regression tasks, in some contexts one may prefer to use another function. For example, suppose that there are many outlier districts. In that case, one may consider using the mean absolute error (MAE, also called the average/mean absolute deviation).
+There are various other metrics like RMSE, MAE etc. , they all are ways to measure the distance between actual and the predicted vector._ 
+
 6.   Is the performance measure aligned with the business objective?
 7.   What would be the minimum performance needed to reach the business objective?
 8.   What are comparable problems? Can one reuse experience or tools?
