@@ -54,7 +54,23 @@ But what if the downstream system converts the prices into categories (e.g. "che
 ### 2. Get the Data:
 <details>
 <summary>For this we need to consider the following questions...</summary>
-  
+Note: automate as much as possible so one can easily get the fresh data.
+
+1. List the data you need and how much you need.
+2. Find and document where you can get that data.
+3. Check how much space it will take.
+4. Check legal obligations, and get authorizations if necessary.
+5. Get access authorizations.
+6. Create a workspace (with enough storage space).
+7. Get the data.
+8. Convert the data to a format you can easily manipulate (without changing the data itself).
+  This is also a very important step, so that the transformations on data are easily reproducible and we do not loose the original data.
+9. Ensure sensitive information is deleted or protected (e.g. anonymized).
+10. Check the size and type of data (time series, sample, geographical, etc.).
+11. Sample a test set, put it aside, and never look at it (no data snooping!).
+  This step would ensure that you are imitating the test set as the real unseen data that model will be seeing for the first time; so any surprises etc if there are to be considering let's say the data distributions etc would be challenged here and would provide a good opportunity to reassess the imputations,transformations pipelines accordingly.
+
+</details>
   
 ---
 [![how-to](https://img.shields.io/badge/how--to-use-blue.svg)](https://github.com/jonatasemidio/multilanguage-readme-pattern/blob/master/STEPS.md)
