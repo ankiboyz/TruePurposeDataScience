@@ -68,7 +68,7 @@ Note: automate as much as possible so one can easily get the fresh data.
 9. Ensure sensitive information is deleted or protected (e.g. anonymized).
 10. Check the size and type of data (time series, sample, geographical, etc.).
 11. Sample a test set, put it aside, and never look at it (no data snooping!).
-  This step would ensure that you are imitating the test set as the real unseen data that model will be seeing for the first time; so any surprises etc if there are to be considering let's say the data distributions etc would be challenged here and would provide a good opportunity to reassess the imputations,transformations pipelines accordingly.
+  This step would ensure that you are imitating the test set as the real unseen data that model will be seeing for the first time; so any surprises etc if there are to be considering let's say the data distributions etc would be challenged here and would provide a good opportunity to reassess the imputations,transformations pipelines accordingly.  
 
 </details>
   
