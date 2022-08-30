@@ -9,7 +9,7 @@ This is the Read Me file for the project on the California Housing Prices. This 
 In order to start a Data Science Project from the scratch we need to work on the following points.
 ### 1. Frame the Problem and Look at the Big Picture:
 <details>
-<summary>First of all , we need to understand the business objective...</summary>
+<summary>For this we need to consider the following questions...</summary>
 First of all , we need to understand the business objective.Just building a model is not the end goal; What is the precise objective of the model, and how exactly is it going to be used?
 
 Following questions need to be gathered:
