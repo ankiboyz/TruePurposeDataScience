@@ -46,7 +46,15 @@ There are various other metrics like RMSE, MAE etc. , they all are ways to measu
 11.   List the assumptions been made so far.
 12.   Verify assumptions if possible.
 
+_It is always a good practice to check the assumptions upfront, this can help catch the serious issues early on. For an example, the district prices that your system outputs are going to be fed into a downstream Machine Learning System, and you assume that these prices are going to be used as such.
+But what if the downstream system converts the prices into categories (e.g. "cheap", "medium", or "expensive") and then uses those categories instead of the prices themselves? In this case getting the prices right is not important at all; your system just needs to get the category right. If that's so, then the problem should have been framed as a classification task , and not a regression task. And one would like ot find this out after working on a regression system for months._
+
 </details>
 
+### 2. Get the Data:
+<details>
+<summary>For this we need to consider the following questions...</summary>
+  
+  
 ---
 [![how-to](https://img.shields.io/badge/how--to-use-blue.svg)](https://github.com/jonatasemidio/multilanguage-readme-pattern/blob/master/STEPS.md)
